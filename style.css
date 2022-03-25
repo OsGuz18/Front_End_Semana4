@@ -1,0 +1,275 @@
+*  {
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    border-color: red;
+    border-style:dashed;
+    padding-bottom: 5%;
+    
+    position: relative;
+}
+
+h1{
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+}
+
+body{
+    background-image: url(./img/fondo.webp);
+}
+
+main{
+    display: flex;
+    
+}
+
+.pokedex{
+    margin-left: 5%;
+    margin-top: 0.5%;
+    width: 40%;
+    
+}
+
+.seccion2{
+    margin-top: 0.5%;
+    width: 100%;
+    margin-right: 15%;
+}
+.buscador{
+    display: flex;
+    height: 50px;
+    
+    
+}
+
+.sello{
+    position: absolute;
+    top: 345px;
+    left: 227px;
+    display: none;
+}
+
+
+.sellog {
+    display:block;
+    position: absolute;
+    top: 345px;
+    left: 227px;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    top: 325px;
+    left: 227px;
+  }
+  
+  @keyframes slidein {
+    from {
+        transform: rotate(0deg)
+      
+    }
+  
+    to {
+        transform: rotate(360deg)
+    }
+  }
+
+  .buscador{
+      width: 100%;
+      font-size: 150%;
+  }
+
+  .datos{
+      margin-top: 2%;
+      background-color: aqua;
+      opacity: 0.3;
+      height: 700px;
+  }
+
+  .datos1{
+    position: absolute;
+    top: 200px;
+    left: 550px; 
+    background-color: beige;
+    opacity: 0.8;
+    height: 650px;
+    width: 55%;
+    
+  }
+
+  .datosa{
+    height: 700px;
+    margin-top: 2%;
+    background-color: aqua;
+    opacity: 0.3;
+    animation-duration: 3s;
+    animation-name: guardar;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+
+  }
+  
+  @keyframes guardar {
+    0% {
+        width: 100%;
+      
+    }
+
+    50%{
+        width: 0%;
+    }
+  
+    100% {
+       width: 100%;
+    }
+  }
+
+
+  .datos1a{
+    position: absolute;
+    top: 200px;
+    left: 550px; 
+    background-color: beige;
+    opacity: 0.8;
+    height: 650px;
+    width: 55%;
+    color: white;
+    animation-duration: 3s;
+    animation-name: guardar1;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    display: none;
+
+  }
+  
+  @keyframes guardar1 {
+    0% {
+        display: none;
+        width: 55%;
+      
+    }
+
+    50%{
+        display: none;
+        width: 0%;
+    }
+  
+    100% {
+        display: block;
+       width: 55%;
+    }
+
+  }
+
+
+  .pokemonimg{
+    position: absolute;
+    top: 385px;
+    left: 180px;
+
+  }
+
+  .dato1{
+      display: none;
+    position: absolute;
+    top: 650px;
+    left: 180px;
+    font-size: 150%;
+  }
+
+  .dato2{
+    display: none;
+    position: absolute;
+    top: 650px;
+    left: 330px;
+    font-size: 150%;
+  }
+
+  .nombre{
+    display: none;
+    font-size: 300%;
+    margin-left: 35%;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+  }
+
+  .numero{
+    display: none;
+    font-size: 300%;
+    margin-left: 45%;
+    background-color: white;
+    width: 10%;
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+  }
+
+  .habilidad{
+    display: none;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+  }
+
+  .stats{
+      display: flex;
+      align-content: space-around
+  }
+
+  .hp{
+    display: none;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+  }
+
+  .hp1{
+    display: none;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+  }
+
+  #mew{
+      margin-top: 20%;
+      margin-left: 25%;
+      display: none;
+  }
+
+  .type{
+    display: flex;
+    font-size: 300%;
+    display: none;
+    background-color: white;
+    width: 30%;
+    border-style: ridge;
+    border-color: black;
+  }
+
+  

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunX</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1>Pokedex LaunchX</h1>
+    </header>
+    <main>
+        <div class="pokedex">
+            <img  src="./img/plantilla2.png" id="dex" alt="">
+            <img class="sello" src="./img/Poké_Ball_icon.svg.png" id="sello" width="170px" alt="">
+            <img class="pokemonimg" src="./img/cara.png" id="pokeImage" alt="Pokemon" width="250px"><br>
+            <label class="dato1" id="dato1"></label>
+            <label class="dato2" id="dato2"></label>
+            
+        </div>
+        <div class="seccion2">
+            <div class="buscador">
+                <input class="buscador" type="text" placeholder="Pikachu" id="pokeName" name="pokeName"><br>
+                <button onclick="fetchPokemon()" >Buscar pokemon</button>
+            </div>
+            <div class="datos" id="datos"></div>
+            <div class="datos1" id="datos1">
+                <div class="tipo">
+                    <label class="type" id="tipo"></label>
+                    <label class="nombre" id="nombre"></label>
+                </div>
+                
+                <label class="numero" id="numero"></label>
+                <label class="habilidad" id="habilidad"></label>
+                <div class="stats">
+                    <label class="hp" id="hp"></label>
+                    <label class="hp" id="attack"></label>
+                    <label class="hp1" id="defense"></label>
+                </div>
+                <div class="stats">
+                    <label class="hp" id="spa"></label>
+                    <label class="hp" id="spd"></label>
+                    <label class="hp1" id="speed"></label>
+                </div>
+                <label id="ataques" class="habilidad" ></label>
+                <div class="stats">
+                    <label class="hp" id="A1"></label>
+                    <label class="hp" id="A2"></label>
+                    <label class="hp1" id="A3"></label>
+                </div>
+                <div class="stats">
+                    <label class="hp" id="A4"></label>
+                    <label class="hp" id="A5"></label>
+                    <label class="hp1" id="A6"></label>
+                </div>
+                <img id="mew" src="./img/mew.gif" alt="">
+            </div>
+            
+        </div>
+        
+        
+    </main>
+    
+</body>
+<footer><script src="./pokedexLaunX.js" ></script></footer>
+</html>
